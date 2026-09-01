@@ -1,0 +1,17 @@
+ 
+a=float(input("enter your first number:"))
+b=float(input("enter your second number:"))
+c=a+b
+print("Addition of both the Numbers:",c)
+a=float(input("enter your third number:"))
+b=float(input("enter your fourth number:"))
+c=a-b
+print("subtraction of both the Numbers:",c)
+a=float(input("enter your fifth number:"))
+b=float(input("enter your sixth number:"))
+c=a*b
+print("Multiplication of both the Numbers:",c)
+a=float(input("enter your seventh number:"))
+b=float(input("enter your eighth number:"))
+c=a/b
+print(" division of both the Numbers:",c)
