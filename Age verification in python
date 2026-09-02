@@ -1,0 +1,7 @@
+a=int(input("enter your age:"))
+
+if(a>=18):
+    print("you are valid for this examination")
+else:
+    print("you are invalid for this examination")
+        
