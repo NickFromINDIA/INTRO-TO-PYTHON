@@ -1,0 +1,12 @@
+
+a=int(input("enter the sales of your Copy:"))
+b=int(input("enter the sales of your pencil:"))
+c=int(input("enter the sales of your eraser:"))
+d=a+b+c
+e=d*10/100
+if(a>=10000 and b>=10000 and c>=10000):
+  print("Your reward is 10% of your total sales which is:",e)
+  
+else:
+  e=d*5/100
+  print("Your reward is 5% of your total sales,which is:",e)
