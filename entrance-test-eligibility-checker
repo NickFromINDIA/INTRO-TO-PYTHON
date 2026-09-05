@@ -1,0 +1,6 @@
+a=int(input("enter your grades:"))
+b=int(input("enter your sports result:"))
+if(a>90 or b>90):
+  print("you are applicable for the entrance test.")
+else:
+  print("sorry you are not applicable for the entrance test.")
