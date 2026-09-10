@@ -1,0 +1,13 @@
+a=int(input("Enter your first value:"))
+b=int(input("enter your second value:"))
+c=int(input("Enter your third value:"))
+if(a>b):
+  if(a>c):
+    printf("First value is greatest ")
+  else:
+    print("Third value is greatest ")
+else:
+ if(b>c):
+    print("second value is greatest ")
+ else:
+   print("Third value is greatest")
