@@ -1,0 +1,28 @@
+a=int(input("Enter your first value:"))
+b=int(input("enter your second value:"))
+c=int(input("Enter your third value:"))
+d=int(input("Enter your fourth value:"))
+if(a>b):
+  if(a>c):
+    if(a>d):
+      print("your first value is the greatest")
+    else:
+      print("your fourth value is the greatest")
+  else:
+    if(c>d):
+      print("third value is the greatest")
+    else:
+      print("your fourth value is greatest")
+else:
+  if(b>c):
+    if(b>d):
+      print("second value is the greatest value")
+    else:
+      print("fourth value is greatest")
+  else:
+    if(c>d):
+      print("third value is greatest")
+    else:
+      print("your fourth value is greatest")
+    
+      
