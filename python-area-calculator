@@ -1,0 +1,24 @@
+print("Press 1 to find the area of circle")
+print("Press 2 to find the area of square")
+print("Press 3 to find the area of rectangle")
+print("Press 4 to find the area of triangle")
+a=int(input("Now, Enter your choice:"))
+match a:
+  case 1:
+    b=int(input("enter the radius:"))
+    print("area of circle:",3.14*b*b)
+  case 2:
+    b=int(input("enter the side of the square:"))
+    print("Area of the square:",b*b)
+  case 3:
+    b=int(input("enter the length of rectangle:"))
+    c=int(input("enter the breadth of the rectangle:"))
+    print("the area of the rectangle is:",b*c)
+  case 4:
+    b=int(input("enter the height of the right anled triangle:"))
+    c=int(input("enter the base of the right anled triangle:"))
+    print("the area of the right anled triangle is:",1/2*b*c)
+  case _:
+    print("your choice is invald ,please enter from the valid choices(1-4)")
+  
+    
